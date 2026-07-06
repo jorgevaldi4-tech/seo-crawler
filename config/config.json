@@ -1,0 +1,16 @@
+{
+  "site_url": "https://jorgesellscars.com",
+  "project_name": "SEO Intelligence Crawler",
+  "database_path": "/home/appjorge/seo-crawler/database/crawler_data.db",
+  "log_file": "/home/appjorge/seo-crawler/logs/crawler.log",
+  "user_agent": "JorgeSellsCars-SEO-Bot/1.0",
+  "crawl_delay": 2,
+  "target_location": "Newark, NJ",
+  "keywords": [
+    "used cars",
+    "car financing",
+    "bad credit financing",
+    "buy here pay here"
+  ]
+}
+

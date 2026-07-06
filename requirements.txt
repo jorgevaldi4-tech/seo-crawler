@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+scrapy
+beautifulsoup4
+requests
+sqlalchemy
+celery
+redis
+pandas
+python-dotenv
