@@ -8,3 +8,7 @@ celery
 redis
 pandas
 python-dotenv
+streamlit
+plotly
+google-generativeai
+pandas
