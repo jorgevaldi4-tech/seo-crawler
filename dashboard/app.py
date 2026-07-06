@@ -6,7 +6,9 @@ import plotly.express as px
 st.set_page_config(page_title="SEO Intelligence Dashboard", layout="wide")
 st.title("SEO Intelligence Dashboard - Jorgesellscars.com")
 
-conn = sqlite3.connect('/home/appjorge/seo-crawler/database/crawler_data.db')
+# Change from: conn = sqlite3.connect('/home/appjorge/seo-crawler/database/crawler_data.db')
+# To this:
+conn = sqlite3.connect('database/crawler_data.db')
 df = pd.read_sql_query("SELECT * FROM crawl_results", conn)
 conn.close()
 
